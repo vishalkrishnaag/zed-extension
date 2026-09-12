@@ -9,6 +9,8 @@
   "else"
   "lambda"
   "then"
+  "class"
+  "end"
 ] @keyword
 
 [
