@@ -6,7 +6,7 @@ on this repository's existing `tree-sitter-felidae/` grammar (see that
 directory's README — "intentionally kept separate from the C++ parser").
 
 This is a **grammar-only** extension: no language server is wired up.
-`felidae_debug` already speaks LSP (diagnostics, symbols), but connecting
+`felidae` already speaks LSP (diagnostics, symbols), but connecting
 it requires Zed's Rust/WASM extension API (`zed_extension_api`, a
 `Cargo.toml`, compiling to `wasm32-wasip1`), which is a separate, larger
 undertaking from the grammar/query work done here.
